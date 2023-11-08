@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background:url(bg-project.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    font-family: sans-serif;
+
+}
+.project h1{
+    color: #333;
+    margin-left: 1%;
+    padding-top: 2%;
+    font-size: 22px;
+    max-width: 100%;
+}
+.description{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+h2{
+    font-size: 18px;
+    color: #555;
+}
+.description .para{
+    font-size: 15px;
+    color: #555;
+    margin-left: 3%;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 10px 0 ;
+}
+.features{
+    margin-left: 6%;
+    margin-top: 1%;
+    max-width:80% ;
+}
+.features h2{
+    font-size: 18px;
+    color: #555;
+}
+.features .fea{
+    margin-top: 10px;
+    margin-left: 4%;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 15px;
+    color: #555;
+}
+.technology{
+    margin-left: 4%;
+    margin-top: -1%;
+    max-width:500px ;
+}
+.technology h2{
+    padding-top: 45px;
+    margin-left: 18px;
+    font-size: 18px;
+    color: #555;
+}
+.technology ul{
+    font-size: 15px;
+    color: #555;
+    margin-top: 5px;
+    margin-left: 18%;
+    top: 40%;
+    left: 15%;
+}
+.technology li{
+    list-style: none;
+    display: block;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.use{
+    margin-top: 12px;
+    margin-left: 5%;
+    max-width: 80%;
+}
+.use h2{
+    font-size: 18px;
+    color: #555;
+}
+.use .meth ol{
+    margin-left: 6%;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
+
+}
+.use .meth li{
+    font-size: 15px;
+    color: #555;
+}
+.view {
+    margin-top: 14px;
+    margin-left: 5%;
+    max-width: 80%;
+}
+.view h2{
+    font-size: 18px;
+    color:#555;
+}
+p{
+    margin-top: 5px;
+    margin-left: 6%;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+@media (max-width:795px) {
+    body{
+        background-size: cover;
+        background-image: url(bg-project.jpg);
+    }
+}
